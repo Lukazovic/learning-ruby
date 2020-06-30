@@ -1,7 +1,7 @@
 puts "Welcome to Ruby Calculator"
 
 def printOptions
-  puts "Choose between one of the following options:"
+  puts "\nChoose between one of the following options:"
   puts "1 - Addition between two numbers;"
   puts "2 - Subtraction between two numbers;"
   puts "3 - Multiplication between two numbers;"
@@ -46,5 +46,4 @@ loop do
   when 4
     puts "#{number1} / #{number2} = #{number1 / number2}"
   end
-  puts
 end
