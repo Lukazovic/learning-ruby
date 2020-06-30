@@ -4,7 +4,7 @@ def checkCPF(cpf)
   valid = false
   valid = CPF.valid?(cpf) if CPF.valid?(cpf)
 
-  if valid === true
+  if valid
     puts "O CPF é válido!"
   else
     puts "O CPF não é válido!"
