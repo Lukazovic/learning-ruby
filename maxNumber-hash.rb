@@ -3,7 +3,7 @@ maxNumber = {test: 0}
 
 numbers.map do |key, value|
   maxValue = maxNumber.values[0]
-  maxNumber = {"#{key}": value} if maxValue && value > maxValue
+  maxNumber = {"#{key}": value} if value > maxValue
 end
 
 puts maxNumber
